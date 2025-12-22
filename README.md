@@ -21,7 +21,7 @@ The data can also be accessed in the `uk_measles` data object in the `panelPomp`
 
 <p style="text-indent: -1.5em; margin-left: 1.5em;">
 Bretó, C., Wheeler, J., King, A. A., Ionides, E. L. 2025. “panelPomp: Analysis of Panel Data via Partially Observed Markov Processes in R”. 
-The R Journal, 17, 180-199. 10.32614/RJ-2025-009.
+The R Journal, 17, 180-199. [10.32614/RJ-2025-009](https://doi.org/10.32614/RJ-2025-009).
 </p>
 
 

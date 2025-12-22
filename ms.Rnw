@@ -1253,7 +1253,7 @@ We have seen this pattern in our results, as the gain in log-likelihood obtained
 
 \section{Data Availability Statement}
 
-The data that support the findings of this study are openly available in [repository name e.g “figshare”] at http://doi.org/[doi], reference number [reference number].	
+The data that support the findings of this study are openly available in Zenodo at \linebreak \url{https://doi.org/10.5281/zenodo.18022189}, reference number 18022189.	
 
 \bibliographystyle{jasa3}
 

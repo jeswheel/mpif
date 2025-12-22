@@ -1,0 +1,125 @@
+\usepackage{amsmath}
+\usepackage{graphicx}
+%\usepackage{enumerate}
+\usepackage{natbib}
+\usepackage{url} % not crucial - just used below for the URL
+\usepackage{amsfonts}
+\usepackage{amsthm}
+% \usepackage{amssymb}
+\usepackage{bm}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{placeins}
+\usepackage[ruled,noline,linesnumbered]{algorithm2e}
+\usepackage[table]{xcolor}
+\usepackage{mathtools}
+\usepackage{calc}
+\usepackage{accents}
+\usepackage{appendix}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+% \DeclareMathOperator*{\iff}{\Leftrightarrow}
+\usepackage{etoolbox} % for AtBeginEnvironment
+\usepackage{enumitem}
+
+%\pdfminorversion=4
+% NOTE: To produce blinded version, replace "0" with "1" below.
+\newcommand{\blind}{0}
+
+\newcommand\figTitle{\bf}
+\newcommand\pkg{\texttt}
+\newcommand\code{\texttt}
+\newcommand\eic[1]{\textcolor{orange}{[EI: #1]}}
+\newcommand\jwc[1]{\textcolor{brown}{[JW: #1]}}
+\newcommand\aac[1]{\textcolor{blue}{[AA: #1]}}
+\newcommand\TODO[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand\allVar{\psi}
+\newcommand\allVarExt{\bar{\psi}}
+\newcommand\improvedCell{\cellcolor{blue!25}}
+\newcommand\R{\mathbb{R}}
+
+\newcommand\panelPomp{\texttt{panelPomp}\xspace}
+\newcommand\pomp{\texttt{pomp}\xspace}
+\newcommand\nimble{\texttt{nimble}\xspace}
+\newcommand\mcstate{\texttt{mcstate}\xspace}
+\newcommand\spatPomp{\texttt{spatPomp}\xspace}
+\newcommand\PanelPOMP{PanelPOMP}
+\newcommand\example[1]{ \item #1}
+
+% PSUEDO-CODE HELPERS
+\newcommand\mycolon{{\hspace{0.6mm}:\hspace{0.6mm}}}
+\newcommand\np{j}
+\newcommand\Np{J}   % Number of particles
+\newcommand\nrep{i} % Replicate index (in likelihood evaluations)
+\newcommand\Nrep{I} % Number of replicates (in likelihood evaluations)
+\newcommand\unit{u} % Unit index
+\newcommand\Unit{U} % Number of panel units
+\renewcommand\time{n}
+\newcommand\Time{N}
+\newcommand\Nmif{M} % Number of iterated filtering steps
+\newcommand\nmif{m} % Mif index
+\newcommand\Shared{\Phi}
+\newcommand\Specific{\Psi}
+\newcommand\shared{\phi}
+\newcommand\specific{\psi}
+% \newcommand\Nshared{A}
+\newcommand\nshared{d_\shared}
+% \newcommand\Nspecific{B}
+\newcommand\nspecific{d_\specific}
+\newcommand\BorelT{\mathcal{B}^{\nshared+\Unit\nspecific}}
+\newcommand\regFun{\gamma}
+\newcommand\dimSpecific{{\mathrm{dim}(\Psi)}}
+\newcommand\dimShared{{\mathrm{dim}(\Phi)}}
+\newcommand\argequals{{\,=\,}}
+\newcommand\mystretch{\rule[-2mm]{0mm}{5mm} }
+\newcommand\myBigStretch{\rule[-3mm]{0mm}{5mm} }
+\newcommand\asp{\hspace{6mm}}
+\newcommand\iid{\text{iid}}
+
+% MATH HELPERS
+\newcommand\RealSpace{\mathbb{R}}
+\newcommand\Naturals{\mathbb{N}}
+\newcommand\loglik{\lambda}
+\newcommand\lik{\ell}
+\newcommand\Xspace{{\mathbb X}}
+\newcommand\Yspace{{\mathbb Y}}
+\newcommand\Rspace{{\mathbb R}}
+\newcommand\hatTheta{\widehat{\Theta}}
+\newcommand\Xdim{{\mathrm{dim}}(\Xspace)}
+\newcommand\Ydim{{\mathrm{dim}}(\Yspace)}
+%\newcommand\Thetadim{{{\mathrm{dim}}(\Theta)}}
+\newcommand\Thetadim{D}
+\newcommand\contactsRate{\Lambda}
+\newcommand\given{{\, | \,}}
+\newcommand\giventh{{\,;\,}}
+\newcommand\seq[2]{{#1}\!:\!{#2}}
+\newcommand\prob{\mathbb{P}}
+\newcommand\eulerstep{\Delta}
+\newcommand\nclone{\tilde{n}}
+\newcommand\nstack{n'}
+\newcommand\addRV{Z}
+
+\newcommand\lemmaBound{c}
+%\newcommand\normal{\mathrm{Normal}}
+\newcommand\normal{{\mathcal N}}
+\newcommand\pop{\mathrm{pop}}
+
+% DON'T change margins - should be 1 inch all around.
+\addtolength{\oddsidemargin}{-.5in}%
+\addtolength{\evensidemargin}{-1in}%
+\addtolength{\textwidth}{1in}%
+\addtolength{\textheight}{1.7in}%
+\addtolength{\topmargin}{-1in}%
+
+\newtheorem{prop}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{define}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+
+\newcommand{\dbtilde}[1]{\accentset{\approx}{#1}}
+\newcommand{\vardbtilde}[1]{\tilde{\raisebox{0pt}[0.85\height]{$\tilde{#1}$}}}

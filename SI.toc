@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {A}Assumptions for Theorem~\ref {theorem:pif}}{3}{}%
+\contentsline {section}{\numberline {B}Proof and discussion of Theorem~\ref {theorem:pif}}{8}{}%
+\contentsline {section}{\numberline {C}Proof of Theorem~\ref {theorem:GG}}{14}{}%
+\contentsline {subsection}{\numberline {C.1}Proof of Corollary~\ref {corollary:perturbed}}{25}{}%
+\contentsline {section}{\numberline {D}Convergence with highly-coupled Gaussian likelihoods}{28}{}%
+\contentsline {section}{\numberline {E}Practical inference and confidence intervals}{33}{}%
+\contentsline {section}{\numberline {F}Additional measles model details}{39}{}%
+\contentsline {subsection}{\numberline {F.1}Parameter Search Boxes}{39}{}%
+\contentsline {subsection}{\numberline {F.2}Measurement model}{39}{}%

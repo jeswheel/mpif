@@ -1,0 +1,80 @@
+\begin{thebibliography}{24}
+\newcommand{\enquote}[1]{``#1''}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[\protect\citeauthoryear{Abkemeier, Chen, Ionides, Wheeler, and Tan}{Abkemeier et~al.}{2025}]{pypomp25}
+Abkemeier, A., Chen, J., Ionides, E., Wheeler, J., and Tan, K. (2025), \enquote{Pypomp: Modeling and inference for partially observed {M}arkov processes,} \urlprefix\url{https://github.com/pypomp/pypomp}.
+
+\bibitem[\protect\citeauthoryear{{Auger-M{\'e}th{\'e}}, Field, Albertsen, Derocher, Lewis, Jonsen, and Mills~Flemming}{{Auger-M{\'e}th{\'e}} et~al.}{2016}]{auger16}
+{Auger-M{\'e}th{\'e}}, M., Field, C., Albertsen, C.~M., Derocher, A.~E., Lewis, M.~A., Jonsen, I.~D., and Mills~Flemming, J. (2016), \enquote{State-Space Models' Dirty Little Secrets: Even Simple Linear {{Gaussian}} Models Can Have Estimation Problems,} {\em Scientific Reports\/}, 6, 26677.
+
+\bibitem[\protect\citeauthoryear{Bengtsson, Bickel, and Li}{Bengtsson et~al.}{2008}]{bengtsson08}
+Bengtsson, T., Bickel, P., and Li, B. (2008), \enquote{Curse-of-dimensionality revisited: Collapse of the particle filter in very large scale systems,} in {\em Probability and statistics: Essays in honor of David A. Freedman\/}, volume~2, Institute of Mathematical Statistics, 316--335.
+
+\bibitem[\protect\citeauthoryear{Bhadra, Ionides, Laneri, Pascual, Bouma, and Dhiman}{Bhadra et~al.}{2011}]{bhadra11}
+Bhadra, A., Ionides, E.~L., Laneri, K., Pascual, M., Bouma, M., and Dhiman, R.~C. (2011), \enquote{Malaria in {N}orthwest {I}ndia: Data analysis via partially observed stochastic differential equation models driven by {L}\'{e}vy noise,} {\em Journal of the American Statistical Association\/}, 106, 440--451.
+
+\bibitem[\protect\citeauthoryear{Bret{\'o}, Ionides, and King}{Bret{\'o} et~al.}{2020}]{breto20}
+Bret{\'o}, C., Ionides, E.~L., and King, A.~A. (2020), \enquote{Panel data analysis via mechanistic models,} {\em Journal of the American Statistical Association\/}, 115, 1178--1188.
+
+\bibitem[\protect\citeauthoryear{Bret{\'o}, Wheeler, King, and Ionides}{Bret{\'o} et~al.}{2025}]{panelpomp}
+Bret{\'o}, C., Wheeler, J., King, A.~A., and Ionides, E.~L. (2025), \enquote{{panelPomp}: Analysis of panel data via partially observed {M}arkov processes in {R},} {\em {The R Journal}\/}, 17, 180--199.
+
+\bibitem[\protect\citeauthoryear{Chen, Gerber, Andrieu, and Douc}{Chen et~al.}{2025}]{chen25}
+Chen, Y., Gerber, M., Andrieu, C., and Douc, R. (2025), \enquote{Self-organizing state-space models with artificial dynamics,} {\em Journal of the Royal Statistical Society Series B: Statistical Methodology\/}, qkaf069.
+
+\bibitem[\protect\citeauthoryear{Crauel}{Crauel}{2002}]{crauel02}
+Crauel, H. (2002), {\em Random Probability Measures on {P}olish Spaces\/}, London: CRC Press.
+
+\bibitem[\protect\citeauthoryear{Foster}{Foster}{1995}]{foster95}
+Foster, I. (1995), {\em Designing and Building Parallel Programs: Concepts and Tools for Parallel Software Engineering\/}, Addison-Wesley Longman Publishing Co., Inc.
+
+\bibitem[\protect\citeauthoryear{He, Ionides, and King}{He et~al.}{2010}]{he10}
+He, D., Ionides, E.~L., and King, A.~A. (2010), \enquote{Plug-and-play inference for disease dynamics: Measles in large and small populations as a case study,} {\em Journal of The Royal Society Interface\/}, 7, 271--283.
+
+\bibitem[\protect\citeauthoryear{Ionides, Breto, Park, Smith, and King}{Ionides et~al.}{2017}]{ionides17}
+Ionides, E.~L., Breto, C., Park, J., Smith, R.~A., and King, A.~A. (2017), \enquote{Monte {C}arlo profile confidence intervals for dynamic systems,} {\em Journal of the Royal Society Interface\/}, 14, 1--10.
+
+\bibitem[\protect\citeauthoryear{Ionides, Nguyen, Atchad\'{e}, Stoev, and King}{Ionides et~al.}{2015}]{ionides15}
+Ionides, E.~L., Nguyen, D., Atchad\'{e}, Y., Stoev, S., and King, A.~A. (2015), \enquote{Inference for dynamic and latent variable models via iterated, perturbed {B}ayes maps,} {\em Proceedings of the National Academy of Sciences of the USA\/}, 112, 719--724.
+
+\bibitem[\protect\citeauthoryear{Ionides, Ning, and Wheeler}{Ionides et~al.}{2024}]{ionides24}
+Ionides, E.~L., Ning, N., and Wheeler, J. (2024), \enquote{An iterated block particle filter for inference on coupled dynamic systems with shared and unit-specific parameters,} {\em Statistica Sinica\/}, 34, 1241--1262.
+
+\bibitem[\protect\citeauthoryear{King, Ionides, Asfaw, Bret{\'o}, and Lin}{King et~al.}{2025}]{king25}
+King, A.~A., Ionides, E., Asfaw, K., Bret{\'o}, C., and Lin, Q. (2025), \enquote{kingaa/sbied: 2024,} .
+
+\bibitem[\protect\citeauthoryear{King, Nguyen, and Ionides}{King et~al.}{2016}]{king16}
+King, A.~A., Nguyen, D., and Ionides, E.~L. (2016), \enquote{Statistical Inference for Partially Observed {M}arkov Processes via the {R} Package {pomp},} {\em Journal of Statistical Software\/}, 69, 1–43.
+
+\bibitem[\protect\citeauthoryear{Liu}{Liu}{2001}]{liu01book}
+Liu, J.~S. (2001), {\em Monte Carlo Strategies in Scientific Computing\/}, New York: Springer.
+
+\bibitem[\protect\citeauthoryear{Ning and Ionides}{Ning and Ionides}{2023}]{ning23}
+Ning, N. and Ionides, E.~L. (2023), \enquote{Iterated block particle filter for high-dimensional parameter learning: Beating the curse of dimensionality,} {\em Journal of Machine Learning Research\/}, 24, 1--76.
+
+\bibitem[\protect\citeauthoryear{Pawitan}{Pawitan}{2001}]{pawitan01}
+Pawitan, Y. (2001), {\em In all Likelihood: Statistical Modelling and Inference Using Likelihood\/}, Oxford University Press.
+
+\bibitem[\protect\citeauthoryear{Rebeschini and Van~Handel}{Rebeschini and Van~Handel}{2015}]{rebeschini15}
+Rebeschini, P. and Van~Handel, R. (2015), \enquote{Can local particle filters beat the curse of dimensionality?} {\em Annals of Applied Probability\/}, 25, 2809--2866.
+
+\bibitem[\protect\citeauthoryear{Snyder, Bengtsson, Bickel, and Anderson}{Snyder et~al.}{2008}]{snyder08}
+Snyder, C., Bengtsson, T., Bickel, P., and Anderson, J. (2008), \enquote{Obstacles to high-dimensional particle filtering,} {\em Monthly Weather Review\/}, 136, 4629--4640.
+
+\bibitem[\protect\citeauthoryear{Tan, Hooker, and Ionides}{Tan et~al.}{2024}]{tan24}
+Tan, K., Hooker, G., and Ionides, E.~L. (2024), \enquote{Accelerated inference for partially observed {M}arkov processes using automatic differentiation,} {\em arXiv:2407.03085\/}.
+
+\bibitem[\protect\citeauthoryear{Wheeler and Ionides}{Wheeler and Ionides}{2025}]{wheeler25}
+Wheeler, J. and Ionides, E.~L. (2025), \enquote{Revisiting inference for {ARMA} models: Improved fits and superior confidence intervals,} {\em PLoS One\/}, 20, e0333993.
+
+\bibitem[\protect\citeauthoryear{Wheeler, Rosengart, Jiang, Tan, Treutle, and Ionides}{Wheeler et~al.}{2024}]{wheeler24}
+Wheeler, J., Rosengart, A., Jiang, Z., Tan, K., Treutle, N., and Ionides, E.~L. (2024), \enquote{Informing policy via dynamic models: Cholera in {H}aiti,} {\em PLOS Computational Biology\/}, 20, e1012032.
+
+\bibitem[\protect\citeauthoryear{Yang, Wheeler, Duffy, King, and Ionides}{Yang et~al.}{2025}]{yang25}
+Yang, B., Wheeler, J., Duffy, M.~A., King, A.~A., and Ionides, E.~L. (2025), \enquote{Mechanistic models for panel data: Analysis of ecological experiments with four interacting species,} {\em arXiv:2506.04508\/}.
+
+\end{thebibliography}

@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SI.aux
+The style file: jasa3.bst
+Database file #1: references.bib
+Warning--entry type for "king25" isn't style-file defined
+--line 510 of file references.bib
+Warning--empty journal in pypomp25
+You've used 24 entries,
+            2620 wiz_defined-function locations,
+            744 strings with 9443 characters,
+and the built_in function-call counts, 13324 in all, are:
+= -- 1164
+> -- 784
+< -- 15
++ -- 278
+- -- 252
+* -- 1341
+:= -- 2395
+add.period$ -- 44
+call.type$ -- 24
+change.case$ -- 180
+chr.to.int$ -- 24
+cite$ -- 25
+duplicate$ -- 541
+empty$ -- 892
+format.name$ -- 352
+if$ -- 2559
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 27
+newline$ -- 80
+num.names$ -- 120
+pop$ -- 241
+preamble$ -- 1
+purify$ -- 180
+quote$ -- 0
+skip$ -- 365
+stack$ -- 0
+substring$ -- 660
+swap$ -- 121
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 272
+warning$ -- 1
+while$ -- 96
+width$ -- 0
+write$ -- 287
+(There were 2 warnings)
